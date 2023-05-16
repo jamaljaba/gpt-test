@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Chatgpt</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="main-container">
+        <div class="chatgpt-container"  id="chatgpt_container">
+          <div class="chatgpt-form-header">
+            <!-- <img style="width: 30px;" src="assets/bot.svg" alt="img"/> -->
+            Try ChatGPT
+          </div>
+          <div id="chat_container"></div>
+          <form>
+            <textarea name="prompt" rows="1" cols="1" placeholder="Ask Ai hmad anything ..."></textarea>
+            <button type="submit"> send
+              <!-- <img src="assets/send.svg" alt="send" /> -->
+          </form>
+        </div>
+      <div class="try-chatgpt-btn" style="width:200px">
+        <button class="button__container"  id="toggle_btn"> send
+          <!-- <img style="width: 30px;" src="assets/bot.svg" alt="img"/> -->
+          </button>
+        <!-- <button class="button__container" id="toggle_btn">
+          Try ChatGPT
+        </button> -->
+      </div>
+        <!-- <button class="button_rounded__container" id="toggle_btn">
+     
+      <span class="close__icon widget__hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+      </span></button> -->
+      </div>
+    </div>
+    <script type="module" src="/main-script.js"></script>
+  </body>
+</html>
