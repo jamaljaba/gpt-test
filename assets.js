@@ -1,3 +1,12 @@
+// export function setupCounter(element) {
+//   let counter = 0
+//   const setCounter = (count) => {
+//     counter = count
+//     element.innerHTML = `count is ${counter}`
+//   }
+//   element.addEventListener('click', () => setCounter(counter + 1))
+//   setCounter(0)
+// }
 export const styles = `
     .widget__container * {
         box-sizing: border-box;
@@ -26,10 +35,8 @@ export const styles = `
         top: 18px;
         left: 16px;
         transition: transform .3s ease;
-        color:white;
     }
     .widget__hidden {
-        display:none;
         transform: scale(0);
     }
     .button__container {
